@@ -9,6 +9,8 @@ env/
 # Build / env
 dist/
 build/
+.next/
+out/
 .env
 .env.local
 *.log
@@ -18,3 +20,7 @@ build/
 .vscode/
 *.swp
 .DS_Store
+
+# Next.js
+.next/
+.vercel
