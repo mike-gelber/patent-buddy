@@ -37,6 +37,12 @@ export default function Navbar() {
             Patent Criteria
           </a>
           <a
+            href="/advisory-board"
+            className="text-sm font-medium text-gray-600 transition-colors hover:text-primary-600"
+          >
+            Advisory Board
+          </a>
+          <a
             href="#pricing"
             className="text-sm font-medium text-gray-600 transition-colors hover:text-primary-600"
           >
@@ -112,6 +118,13 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Patent Criteria
+            </a>
+            <a
+              href="/advisory-board"
+              className="text-sm font-medium text-gray-600"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Advisory Board
             </a>
             <a
               href="#pricing"
