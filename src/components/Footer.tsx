@@ -2,8 +2,8 @@ const footerLinks = {
   Product: [
     { name: "Features", href: "#features" },
     { name: "How It Works", href: "#how-it-works" },
+    { name: "Advisory Board", href: "/advisory-board" },
     { name: "Pricing", href: "#pricing" },
-    { name: "FAQ", href: "#" },
   ],
   Resources: [
     { name: "Patent Basics", href: "#" },
