@@ -11,6 +11,7 @@ const plans = [
       "General next steps guidance",
     ],
     cta: "Start Free Assessment",
+    ctaHref: "/assessment",
     ctaStyle:
       "border border-gray-300 bg-white text-gray-700 hover:bg-gray-50",
     highlighted: false,
@@ -29,6 +30,7 @@ const plans = [
       "Export-ready report",
     ],
     cta: "Get Started",
+    ctaHref: "#cta",
     ctaStyle:
       "bg-primary-600 text-white shadow-lg shadow-primary-600/25 hover:bg-primary-700",
     highlighted: true,
@@ -47,6 +49,7 @@ const plans = [
       "Custom integrations",
     ],
     cta: "Contact Sales",
+    ctaHref: "#cta",
     ctaStyle:
       "border border-gray-300 bg-white text-gray-700 hover:bg-gray-50",
     highlighted: false,
@@ -124,7 +127,7 @@ export default function Pricing() {
               </ul>
 
               <a
-                href="#cta"
+                href={plan.ctaHref ?? "#cta"}
                 className={`mt-8 block rounded-xl px-6 py-3 text-center text-sm font-semibold transition-all ${plan.ctaStyle}`}
               >
                 {plan.cta}

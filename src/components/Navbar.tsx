@@ -52,7 +52,7 @@ export default function Navbar() {
             Log In
           </a>
           <a
-            href="#cta"
+            href="/assessment"
             className="rounded-lg bg-primary-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition-all hover:bg-primary-700 hover:shadow-md"
           >
             Try Free Assessment
@@ -129,7 +129,7 @@ export default function Navbar() {
               Log In
             </a>
             <a
-              href="#cta"
+              href="/assessment"
               className="rounded-lg bg-primary-600 px-4 py-2 text-center text-sm font-medium text-white"
               onClick={() => setMobileMenuOpen(false)}
             >
